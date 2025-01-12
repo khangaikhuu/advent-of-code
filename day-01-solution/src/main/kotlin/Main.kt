@@ -1,6 +1,6 @@
 fun main() {
-    var dataColumn0ne = mutableListOf<Int>();
-    var dataColumnTwo = mutableListOf<Int>();
+    val dataColumn0ne = mutableListOf<Int>();
+    val dataColumnTwo = mutableListOf<Int>();
     try {
         object {}.javaClass.getResourceAsStream("/input.txt")?.bufferedReader()?.useLines { lines ->
             lines.forEach { line ->
